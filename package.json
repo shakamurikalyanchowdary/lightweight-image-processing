@@ -1,0 +1,19 @@
+{
+  "name": "lightweight-image-processing",
+  "version": "1.0.0",
+  "description": "perform image processing actions in an robust way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakamurikalyanchowdary/lightweight-image-processing.git"
+  },
+  "author": "kalyan chowdary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakamurikalyanchowdary/lightweight-image-processing/issues"
+  },
+  "homepage": "https://github.com/shakamurikalyanchowdary/lightweight-image-processing#readme"
+}
