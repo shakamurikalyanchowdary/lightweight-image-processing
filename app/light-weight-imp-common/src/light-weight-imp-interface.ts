@@ -2,10 +2,11 @@ export type Tconfig = {
     port: number
 }
 export type Tupload = {
-    flag: boolean,
+    flagUrl: boolean,
     url?: string,
     data?: any,
-    type: string,
+    extension: string,
+    name:string
 }
 export abstract class ILightWeightImp {
     constructor(config: Tconfig) { };

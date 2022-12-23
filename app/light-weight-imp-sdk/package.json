@@ -2,19 +2,23 @@
   "name": "light-weight-imp-sdk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/src/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kalyan chowdary",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "light-weight-imp-abstract": "^1.0.1",
     "light-weight-imp-common": "^1.1.2",
+    "sharp": "^0.31.3",
     "threads": "^1.7.0",
     "zx": "^7.1.1"
   },
   "devDependencies": {
-    "@types/express": "^4.17.15"
+    "@types/express": "^4.17.15",
+    "@types/sharp": "^0.31.0"
   }
 }
